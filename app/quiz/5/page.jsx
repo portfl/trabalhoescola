@@ -47,7 +47,7 @@ const page = () => {
         router.push("/quiz/endPage");
     }, 2000)
 
-    console.log(e.target.textContent);
+    
 
   };
 
@@ -90,10 +90,6 @@ const page = () => {
     }
   }, [])
 
-  useEffect(() => {
-    console.log(sessionStorage.getItem("Acertos"));
-    console.log(sessionStorage.getItem("Respostas"));
-  }, [Answers])
   return (
     <div className="h-full w-full">
       <div>

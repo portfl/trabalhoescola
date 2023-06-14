@@ -37,7 +37,8 @@ const Page = () => {
         return router.push("/quiz/5");
       }
 
-      setValue(Answers);
+      const correct = parseInt(sessionStorage.getItem("Acertos"))
+      setValue(correct)
     }
     
   }, [])

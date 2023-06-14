@@ -43,7 +43,6 @@ const page = () => {
         setChoosedAnswer(e.target.textContent);
     }
 
-    console.log(e.target.textContent);
 
     setTimeout(() => {
         router.push("/quiz/4")
@@ -66,10 +65,7 @@ const page = () => {
     }
   }, [])
 
-  useEffect(() => {
-    console.log(sessionStorage.getItem("Acertos"));
-    console.log(sessionStorage.getItem("Respostas"));
-  }, [Answers])
+
 
 
   return (

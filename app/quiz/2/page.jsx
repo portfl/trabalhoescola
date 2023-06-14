@@ -50,7 +50,6 @@ const page = () => {
         router.push("/quiz/3")
     }, 1000)
 
-    console.log(e.target.textContent);
 
   };
   useEffect(() => {
@@ -69,10 +68,7 @@ const page = () => {
     }
   }, [])
 
-  useEffect(() => {
-    console.log(sessionStorage.getItem("Acertos"));
-    console.log(sessionStorage.getItem("Respostas"));
-  }, [Answers])
+
   return (
     <div className="h-full w-full">
       <div>

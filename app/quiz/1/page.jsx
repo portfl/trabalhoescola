@@ -34,8 +34,6 @@ const page = () => {
 
     setChoosedAnswer(e.target.textContent);
 
-    console.log(e.target.textContent);
-
     setTimeout(() => {
         router.push("/quiz/2");
     }, 2000)
@@ -67,10 +65,6 @@ const page = () => {
         }
       }
     }, [])
-  useEffect(() => {
-    console.log(parseInt(sessionStorage.getItem("Acertos")));
-    console.log(parseInt(sessionStorage.getItem("Respostas")));
-  }, [Answers]);
 
 
   return (
