@@ -45,27 +45,16 @@ const page = () => {
   useEffect(() => {
     const Answers =  parseInt(sessionStorage.getItem("Respostas"));
 
-    switch (Answers) {
-      case 0 | NaN: {
-        router.push("/quiz/1");
-        break;
-      }
-      case 1 : {
-        router.push("/quiz/2")
-        break;
-      }
-      case 2 : {
-        router.push("/quiz/3")
-        break;
-      }
-      case 4: {
-        router.push("/quiz/5");
-        break;
-      }
-      case 5: {
-        router.push("/quiz/endPage")
-        break;
-      }
+    if (isNaN(Answers) || Answers === 0) {
+      router.push("/quiz/1");
+    } else if (Answers === 1) {
+      router.push("/quiz/2");
+    } else if (Answers === 2) {
+      router.push("/quiz/3");
+    } else if (Answers === 4) {
+      router.push("/quiz/5");
+    } else if (Answers === 5) {
+      router.push("/quiz/endPage");
     }
   }, [])
 

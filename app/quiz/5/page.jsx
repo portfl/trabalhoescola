@@ -76,6 +76,18 @@ const page = () => {
         break;
       }
     }
+
+    if (isNaN(Answers) || Answers === 0) {
+      router.push("/quiz/1");
+    } else if (Answers === 1) {
+      router.push("/quiz/2");
+    } else if (Answers === 2) {
+      router.push("/quiz/3");
+    } else if (Answers === 3) {
+      router.push("/quiz/4");
+    } else if (Answers === 5) {
+      router.push("/quiz/endPage");
+    }
   }, [])
 
   useEffect(() => {
