@@ -98,7 +98,7 @@ const page = () => {
     <div className="h-full w-full">
       <div>
         <div className="flex justify-center items-center flex-col">
-          <h1 className="text-5xl font-semibold text-center">qual é o ponto turistico de maragogipe, conhecido pela famosa lenda: "quem tonha banho ali, casa aqui" ?</h1>
+          <h1 className="text-5xl font-semibold text-center">qual é o ponto turistico de maragojipe, conhecido pela famosa lenda: "quem tonha banho ali, casa aqui" ?</h1>
           <div className="flex flex-col">
           </div>
         </div>
