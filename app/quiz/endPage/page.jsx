@@ -11,14 +11,17 @@ const Page = () => {
   const router = useRouter();
 
   const Restart = () => {
-    sessionStorage.setItem("Acertos", 0);
-    sessionStorage.setItem("Respostas", 0);
-
-    router.push("/quiz/1");
+    if (typeof window !== 'undefined' && window.sessionStorage) {
+      sessionStorage.setItem("Acertos", 0);
+      sessionStorage.setItem("Respostas", 0);
+  
+      router.push("/quiz/1");
+    }
   };
 
   useEffect(() => {
-    const Answers =  parseInt(sessionStorage.getItem("Respostas"));
+    if (typeof window !== 'undefined' && window.sessionStorage) {
+      const Answers =  parseInt(sessionStorage.getItem("Respostas"));
 
     switch (Answers) {
       case 0 | NaN: {
@@ -41,6 +44,8 @@ const Page = () => {
         break;
       }
     }
+    }
+    
   }, [])
 
   return (
@@ -52,7 +57,7 @@ const Page = () => {
           <h1 className="text-6xl">Obrigado por responder nosso Quiz!</h1>
           <p className={`${roboto.className}`}>
             Seu Resultado Foi:{" "}
-            {sessionStorage && parseInt(sessionStorage.getItem("Acertos"))}/5{" "}
+            {typeof window !== 'undefined' && window.sessionStorage  && parseInt(window.sessionStorage.getItem("Acertos"))}/5{" "}
           </p>
         </div>
         <p>Clique no Botão Para Reiniciar</p>
