@@ -78,7 +78,7 @@ const page = () => {
       <div>
         <div className="flex justify-center items-center flex-col ">
           <h1 className="text-5xl font-semibold text-center">
-            Quais os principais ingredientes da culinaria Maragojipana?
+            Quais os principais ingredientes da culinaria Maragogipana?
           </h1>
           <div className="flex flex-col">
           </div>

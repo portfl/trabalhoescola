@@ -67,7 +67,7 @@ const page = () => {
       <div>
         <div className="flex justify-center items-center flex-col ">
           <h1 className="text-5xl font-semibold text-center">
-            Quais Brasileiros se destacaram e atuaram contra os portugueses na regiao maragojipana, durante a independência da Bahia?
+            Quais Brasileiros se destacaram e atuaram contra os portugueses na regiao maragogipana, durante a independência da Bahia?
           </h1>
           <div className="flex flex-col">
           </div>

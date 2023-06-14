@@ -77,7 +77,7 @@ const page = () => {
     <div className="h-full w-full">
       <div>
         <div className="flex justify-center items-center flex-col">
-          <h1 className="text-5xl font-semibold text-center">Qual a mais antiga tradição musical de Maragojipe?</h1>
+          <h1 className="text-5xl font-semibold text-center">Qual a mais antiga tradição musical de Maragogipe?</h1>
           <div className="flex flex-col">
           </div>
         </div>
