@@ -91,7 +91,7 @@ const page = () => {
               }`}
               onClick={Answers ? null : checkAnswer}
             >
-              Teste 1
+              Queijo
             </button>
             <button
               className={`w-60 h-10 rounded-lg btn btn-xs sm:btn-sm md:btn-md lg:btn-lg ${
@@ -99,7 +99,7 @@ const page = () => {
               }`}
               onClick={Answers ? null : checkAnswer}
             >
-              Teste 2
+              Churrasco
             </button>
           </div>
           <div className="flex gap-2 mt-2 flex-col md:flex-row">
@@ -117,7 +117,7 @@ const page = () => {
               }`}
               onClick={Answers ? null : checkAnswer}
             >
-              Teste 4
+              paçoca
             </button>
           </div>
           <div className="mt-20">

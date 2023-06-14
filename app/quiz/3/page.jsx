@@ -83,10 +83,10 @@ const page = () => {
         <div className="flex justify-center items-center flex-col mt-60">
           <div className="flex gap-2 flex-col md:flex-row">
             <button className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${Answers ? " opacity-50 cursor-not-allowed" : ""}`} onClick={Answers ? null : checkAnswer}>
-              <span>Teste 1</span>
+              <span>folia de Reis</span>
             </button>
             <button className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${Answers ? " opacity-50 cursor-not-allowed" : ""}`} onClick={Answers ? null : checkAnswer}>
-              Teste 2
+              boiadeira
             </button>
           </div>
           <div className="flex gap-2 mt-2 flex-col md:flex-row">
@@ -94,7 +94,7 @@ const page = () => {
               <span>Forró do Cais </span>
             </button>
             <button className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${Answers ? " opacity-50 cursor-not-allowed" : ""}`} onClick={Answers ? null : checkAnswer}>
-              Teste 4
+              cateretê
             </button>
           </div>
           <div className="mt-20">

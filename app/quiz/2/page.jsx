@@ -87,15 +87,15 @@ const page = () => {
               Samba de Roda
             </button>
             <button className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${Answers ? " opacity-50 cursor-not-allowed" : ""}`} onClick={Answers ? null : checkAnswer}>
-              Teste 2
+              Jazz
             </button>
           </div>
           <div className="flex gap-2 mt-2 flex-col md:flex-row">
             <button className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${Answers ? " opacity-50 cursor-not-allowed" : ""}`} onClick={Answers ? null : checkAnswer}>
-              Teste 3 
+              Forró
             </button>
             <button className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${Answers ? " opacity-50 cursor-not-allowed" : ""}`} onClick={Answers ? null : checkAnswer}>
-              Teste 4
+              frevo
             </button>
           </div>
           <div className="mt-20">

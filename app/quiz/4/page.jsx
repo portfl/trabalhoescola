@@ -80,7 +80,7 @@ const page = () => {
                 }`}
                 onClick={Answers ? null : checkAnswer}
               >
-                <span>Teste 1</span>
+                <span>joana Angelica</span>
               </button>
               <button
                 className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${
@@ -98,7 +98,7 @@ const page = () => {
                 }`}
                 onClick={Answers ? null : checkAnswer}
               >
-                <span>Teste 3 </span>
+                <span>irmã dulce </span>
               </button>
               <button
                 className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${
@@ -106,7 +106,7 @@ const page = () => {
                 }`}
                 onClick={Answers ? null : checkAnswer}
               >
-                Teste 4
+                Maria Felipa
               </button>
             </div>
           

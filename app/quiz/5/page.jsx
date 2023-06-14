@@ -105,15 +105,15 @@ const page = () => {
         <div className="flex justify-center items-center flex-col mt-60">
           <div className="flex gap-2 flex-col md:flex-row">
             <button className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${Answers ? " opacity-50 cursor-not-allowed" : ""}`} onClick={Answers ? null : checkAnswer}>
-              <span>Teste 1</span>
+              <span>Ponta de Souza</span>
             </button>
             <button className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${Answers ? " opacity-50 cursor-not-allowed" : ""}`} onClick={Answers ? null : checkAnswer}>
-              Teste 2
+              Porto do cajá
             </button>
           </div>
           <div className="flex gap-2 mt-2 flex-col md:flex-row">
             <button className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${Answers ? " opacity-50 cursor-not-allowed" : ""}`} onClick={Answers ? null : checkAnswer}>
-              <span>Teste 3 </span>
+              <span>Arraial do Cabo </span>
             </button>
             <button className={`btn btn-xs sm:btn-sm md:btn-md lg:btn-lg w-60 h-10 rounded-lg ${Answers ? " opacity-50 cursor-not-allowed" : ""}`} onClick={Answers ? null : checkAnswer}>
               cachoeira do urubu
